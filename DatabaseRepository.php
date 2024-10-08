@@ -3,7 +3,7 @@
 class DatabaseRepository {
     private static $dsn = 'mysql:host=localhost;dbname=contatos';
     private static $username = 'root';
-    private static $password = 'm';
+    private static $password = '';
 
     public static function connect() {
         try {
