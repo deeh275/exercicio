@@ -1,6 +1,7 @@
 <?php
 require_once 'DatabaseRepository.php';
 $contacts = DatabaseRepository::getAllContacts();
+
 ?>
 
 <!DOCTYPE html>
